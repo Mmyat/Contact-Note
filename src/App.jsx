@@ -5,7 +5,7 @@ import Edit from "./components/Edit";
 // import "./index.css";
 const App = () => {
   return (
-    <div className='w-full h-screen container mx-auto'>
+    <div className='container mx-auto'>
       <Routes>
         <Route path="/" element={<Contact/>}/>
         <Route path="/create" element={<Create/>}/>
